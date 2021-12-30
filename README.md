@@ -1,0 +1,2 @@
+# SCRIPT
+AUTO FARM
