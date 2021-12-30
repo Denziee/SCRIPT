@@ -38,7 +38,7 @@ PROTEIN.TextScaled = true
 PROTEIN.TextSize = 14.000
 PROTEIN.TextWrapped = true
 PROTEIN.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/PWb3uj8g",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Denziee/SCRIPT/main/PROTEIN"))()
 end)
 
 AUTOREBIRTH.Name = "AUTO REBIRTH"
@@ -53,7 +53,7 @@ AUTOREBIRTH.TextScaled = true
 AUTOREBIRTH.TextSize = 14.000
 AUTOREBIRTH.TextWrapped = true
 AUTOREBIRTH.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/MqY9xg4n",true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Denziee/SCRIPT/main/AUTO%20REBIRTH"))()
 end)
 
 
