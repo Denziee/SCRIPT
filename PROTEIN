@@ -1,3 +1,5 @@
-while wait() do
+_G.Enabled = true
+ 
+while _G.Enabled do
 game:GetService("ReplicatedStorage").Events.bar:InvokeServer()
 end
