@@ -1,0 +1,241 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local MAIN = Instance.new("Frame")
+local MAIN2 = Instance.new("Frame")
+local PROTEIN = Instance.new("TextButton")
+local STOMP = Instance.new("TextButton")
+local OFFALL = Instance.new("TextButton")
+local TITLE = Instance.new("TextLabel")
+local SQUAT = Instance.new("TextButton")
+local MEDITATE = Instance.new("TextButton")
+local STR = Instance.new("TextButton")
+local REBIRTH = Instance.new("TextButton")
+local CLOSE = Instance.new("TextButton")
+local MAIN3 = Instance.new("Frame")
+local NOTE = Instance.new("TextLabel")
+local OPENGUI = Instance.new("Frame")
+local OPEN = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MAIN.Name = "MAIN"
+MAIN.Parent = ScreenGui
+MAIN.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+MAIN.BorderSizePixel = 5
+MAIN.Position = UDim2.new(0.378280133, 0, 0.241428569, 0)
+MAIN.Size = UDim2.new(0, 340, 0, 206)
+MAIN.Visible = false
+MAIN.Active = true
+MAIN.Draggable = true
+
+MAIN2.Name = "MAIN2"
+MAIN2.Parent = MAIN
+MAIN2.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+MAIN2.BorderSizePixel = 4
+MAIN2.Position = UDim2.new(1.05332482, 0, -0.00353055797, 0)
+MAIN2.Size = UDim2.new(0, 184, 0, 206)
+MAIN2.Active = true
+
+PROTEIN.Name = "PROTEIN"
+PROTEIN.Parent = MAIN2
+PROTEIN.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+PROTEIN.BorderSizePixel = 5
+PROTEIN.Position = UDim2.new(0.180626512, 0, 0.379590303, 0)
+PROTEIN.Size = UDim2.new(0, 117, 0, 50)
+PROTEIN.Font = Enum.Font.SourceSansBold
+PROTEIN.Text = "PROTEIN BAR"
+PROTEIN.TextColor3 = Color3.fromRGB(0, 0, 0)
+PROTEIN.TextScaled = true
+PROTEIN.TextSize = 14.000
+PROTEIN.TextWrapped = true
+PROTEIN.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Denziee/SCRIPT/main/PROTEIN"))()
+end)
+
+STOMP.Name = "STOMP"
+STOMP.Parent = MAIN2
+STOMP.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+STOMP.BorderSizePixel = 5
+STOMP.Position = UDim2.new(0.180626512, 0, 0.0706122518, 0)
+STOMP.Size = UDim2.new(0, 117, 0, 50)
+STOMP.Font = Enum.Font.SourceSansBold
+STOMP.Text = "SPAM STOMP"
+STOMP.TextColor3 = Color3.fromRGB(0, 0, 0)
+STOMP.TextScaled = true
+STOMP.TextSize = 14.000
+STOMP.TextWrapped = true
+STOMP.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Denziee/SCRIPT/main/STOMP"))()
+end)
+
+OFFALL.Name = "OFFALL"
+OFFALL.Parent = MAIN2
+OFFALL.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+OFFALL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OFFALL.BorderSizePixel = 5
+OFFALL.Position = UDim2.new(0.180626512, 0, 0.691971481, 0)
+OFFALL.Size = UDim2.new(0, 117, 0, 50)
+OFFALL.Font = Enum.Font.SourceSansBold
+OFFALL.Text = "TURN OFF ALL "
+OFFALL.TextColor3 = Color3.fromRGB(0, 0, 0)
+OFFALL.TextScaled = true
+OFFALL.TextSize = 14.000
+OFFALL.TextWrapped = true
+OFFALL.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Denziee/SCRIPT/main/TURN%20OFF%20ALL%20FARM"))()
+end)
+
+TITLE.Name = "TITLE"
+TITLE.Parent = MAIN
+TITLE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TITLE.BackgroundTransparency = 0.500
+TITLE.BorderColor3 = Color3.fromRGB(0, 0, 255)
+TITLE.BorderSizePixel = 3
+TITLE.Position = UDim2.new(0.155882359, 0, 0, 0)
+TITLE.Size = UDim2.new(0, 286, 0, 56)
+TITLE.Font = Enum.Font.SourceSansBold
+TITLE.Text = "OP GUI ULS"
+TITLE.TextColor3 = Color3.fromRGB(0, 0, 0)
+TITLE.TextScaled = true
+TITLE.TextSize = 14.000
+TITLE.TextWrapped = true
+
+SQUAT.Name = "SQUAT"
+SQUAT.Parent = MAIN
+SQUAT.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+SQUAT.BorderColor3 = Color3.fromRGB(170, 0, 0)
+SQUAT.BorderSizePixel = 5
+SQUAT.Position = UDim2.new(0.594117641, 0, 0.378640771, 0)
+SQUAT.Size = UDim2.new(0, 117, 0, 50)
+SQUAT.Font = Enum.Font.SourceSansBold
+SQUAT.Text = "AUTO SQUAT"
+SQUAT.TextColor3 = Color3.fromRGB(0, 0, 0)
+SQUAT.TextScaled = true
+SQUAT.TextSize = 14.000
+SQUAT.TextWrapped = true
+SQUAT.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Denziee/SCRIPT/main/SQUATS"))()
+end)
+
+MEDITATE.Name = "MEDITATE"
+MEDITATE.Parent = MAIN
+MEDITATE.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+MEDITATE.BorderColor3 = Color3.fromRGB(170, 0, 0)
+MEDITATE.BorderSizePixel = 5
+MEDITATE.Position = UDim2.new(0.594117582, 0, 0.689320385, 0)
+MEDITATE.Size = UDim2.new(0, 117, 0, 50)
+MEDITATE.Font = Enum.Font.SourceSansBold
+MEDITATE.Text = "AUTO MEDITATE"
+MEDITATE.TextColor3 = Color3.fromRGB(0, 0, 0)
+MEDITATE.TextScaled = true
+MEDITATE.TextSize = 14.000
+MEDITATE.TextWrapped = true
+MEDITATE.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Denziee/SCRIPT/main/MEDITATE"))()
+end)
+
+STR.Name = "STR"
+STR.Parent = MAIN
+STR.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+STR.BorderColor3 = Color3.fromRGB(170, 0, 0)
+STR.BorderSizePixel = 5
+STR.Position = UDim2.new(0.0764705464, 0, 0.378640801, 0)
+STR.Size = UDim2.new(0, 117, 0, 50)
+STR.Font = Enum.Font.SourceSansBold
+STR.Text = "AUTO STR"
+STR.TextColor3 = Color3.fromRGB(0, 0, 0)
+STR.TextScaled = true
+STR.TextSize = 14.000
+STR.TextWrapped = true
+STR.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Denziee/SCRIPT/main/AUTO%20LIFT%20AND%20EQUIP"))()
+end)
+
+REBIRTH.Name = "REBIRTH"
+REBIRTH.Parent = MAIN
+REBIRTH.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+REBIRTH.BorderColor3 = Color3.fromRGB(170, 0, 0)
+REBIRTH.BorderSizePixel = 5
+REBIRTH.Position = UDim2.new(0.0764705464, 0, 0.689320445, 0)
+REBIRTH.Size = UDim2.new(0, 117, 0, 50)
+REBIRTH.Font = Enum.Font.SourceSansBold
+REBIRTH.Text = "AUTO REBIRTH"
+REBIRTH.TextColor3 = Color3.fromRGB(0, 0, 0)
+REBIRTH.TextScaled = true
+REBIRTH.TextSize = 14.000
+REBIRTH.TextWrapped = true
+REBIRTH.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Denziee/SCRIPT/main/AUTO%20REBIRTH1"))()
+end)
+
+CLOSE.Name = "CLOSE"
+CLOSE.Parent = MAIN
+CLOSE.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+CLOSE.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CLOSE.BorderSizePixel = 3
+CLOSE.Position = UDim2.new(0, 0, -0.00485436618, 0)
+CLOSE.Size = UDim2.new(0, 61, 0, 56)
+CLOSE.Font = Enum.Font.SourceSansBold
+CLOSE.Text = "X"
+CLOSE.TextColor3 = Color3.fromRGB(0, 0, 0)
+CLOSE.TextScaled = true
+CLOSE.TextSize = 14.000
+CLOSE.TextWrapped = true
+CLOSE.MouseButton1Down:Connect(function()
+	MAIN.Visible = false
+	OPENGUI.Visible = true
+end)
+
+MAIN3.Name = "MAIN3"
+MAIN3.Parent = MAIN
+MAIN3.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+MAIN3.BorderSizePixel = 5
+MAIN3.Position = UDim2.new(0.00588235306, 0, 1.06972647, 0)
+MAIN3.Size = UDim2.new(0, 338, 0, 48)
+MAIN3.Active = true
+
+NOTE.Name = "NOTE"
+NOTE.Parent = MAIN3
+NOTE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NOTE.BackgroundTransparency = 1.000
+NOTE.Position = UDim2.new(0.00295857992, 0, 0.0416666269, 0)
+NOTE.Size = UDim2.new(0, 337, 0, 46)
+NOTE.Font = Enum.Font.SourceSansBold
+NOTE.Text = "if u want use protein bar and spam stomp just click spam on it"
+NOTE.TextColor3 = Color3.fromRGB(0, 0, 0)
+NOTE.TextScaled = true
+NOTE.TextSize = 14.000
+NOTE.TextWrapped = true
+
+OPENGUI.Name = "OPEN GUI"
+OPENGUI.Parent = ScreenGui
+OPENGUI.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+OPENGUI.BorderSizePixel = 5
+OPENGUI.Position = UDim2.new(0.131099358, 0, 0.178571433, 0)
+OPENGUI.Size = UDim2.new(0, 100, 0, 57)
+OPENGUI.Active = true
+OPENGUI.Draggable = true
+
+OPEN.Name = "OPEN"
+OPEN.Parent = OPENGUI
+OPEN.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+OPEN.BorderSizePixel = 3
+OPEN.Position = UDim2.new(0, 0, -0.00362971798, 0)
+OPEN.Size = UDim2.new(0, 100, 0, 32)
+OPEN.Font = Enum.Font.SourceSansBold
+OPEN.Text = "OPEN"
+OPEN.TextColor3 = Color3.fromRGB(0, 0, 0)
+OPEN.TextScaled = true
+OPEN.TextSize = 14.000
+OPEN.TextWrapped = true
+OPEN.MouseButton1Down:Connect(function()
+	OPENGUI.Visible = false
+	MAIN.Visible = true
+end)
