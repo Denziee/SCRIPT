@@ -1,6 +1,7 @@
-while wait() do
-pcall(function()
+_G.Enabled = true
+ 
+while _G.Enabled do
+wait()
 local Event = game:GetService("ReplicatedStorage").Events.Rebirth
 Event:InvokeServer()
-end)
 end
