@@ -15,6 +15,9 @@ Event:InvokeServer()
 local Event = game:GetService("ReplicatedStorage").Events.Stomp
 Event:InvokeServer()
 
+local Event = game:GetService("ReplicatedStorage").Events.train
+Event:InvokeServer()
+
 local Event = game:GetService("ReplicatedStorage").Events.str
 Event:InvokeServer()
 
