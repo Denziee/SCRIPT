@@ -1,9 +1,0 @@
-_G.Enabled = true
- 
-while _G.Enabled do
-wait()
-pcall(function()
-local Event = game:GetService("ReplicatedStorage").Events.train
-Event:InvokeServer()
-end)
-end
