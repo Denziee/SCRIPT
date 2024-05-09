@@ -1,7 +1,0 @@
-_G.Enabled = true
- 
-while _G.Enabled do
-wait()
-local Event = game:GetService("ReplicatedStorage").Events.Rebirth
-Event:InvokeServer()
-end
